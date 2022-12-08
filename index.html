@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="vendors/slick/slick.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"></script>
+    
+    <title>İnternetin Boyner'i Online Alışverişin Adresi</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: white;">
+        <img src="./img/Boyner_Logo.png" class="logo" style="width: 10%; left: 40px; position: relative;">
+        <ul class="navbar-nav ml-auto" style="position: relative; left: 20%;">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Üye Ol</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Üye Girişi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa-regular fa-heart"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-bag fa-xl" viewBox="0 0 16 16">
+                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+                  </svg></i></a>
+              </li>
+            
+          </ul> 
+          
+    <input type="input" id="pw-search-input" class="form-control search-input" placeholder="Kategori, ürün veya marka yazın" style="width: 36%; position: relative; right: 40%;">
+    </nav>
+     <br>
+   
+   <div>
+    
+    <hr size="0.5" width="100%" color="grey"> 
+    &emsp;  &emsp; &emsp;  <b> KADIN </b> &emsp; &emsp; &emsp; &emsp; &emsp;   <b> ERKEK</b>  &emsp; &emsp; &emsp; &emsp; &emsp; <b> ÇOCUK </b> &emsp; &emsp; &emsp; &emsp; &emsp; <b> SPOR </b>  &emsp; &emsp; &emsp; &emsp; &emsp;<b> AYAKKABI&ÇANTA </b>  &emsp; &emsp; &emsp; &emsp; &emsp; <b> KOZMETİK </b>  &emsp; &emsp; &emsp; &emsp; <b> AKSESUAR&SAAT </b> &emsp; &emsp; &emsp; &emsp;   <b> EV&YAŞAM GURME</b>  &emsp; &emsp; &emsp; &emsp; &emsp; <b> MARKALAR</b> &emsp; &emsp; &emsp; &emsp; &emsp;  <b> OUTLET</b>
+    <hr size="0.5" width="100%" color="grey"> 
+    
+</div>
+<br>
+
+<img class="mySlides" src="img/1.png">
+<img class="mySlides" src="img/2.png">
+<img class="mySlides" src="img/3.png">
+<img class="mySlides" src="img/4.png">
+    
+<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+
+<br>
+
+<div class="kampanyalar">
+ <img src="img/k1.png" alt="tek fiyat" style="width: 30%; left: 20%; top: 100%; position:absolute;">
+ <img src="img/k2.png" alt="tek fiyat" style="width: 30%; left: 52%; top: 100%; position:absolute;">
+ <img src="img/k3.png" alt="tek fiyat" style="width: 30%; left: 20%; top: 135%; position:absolute;">
+ <img src="img/k4.png" alt="tek fiyat" style="width: 30%; left: 52%; top: 135%; position:absolute;">
+ <img src="img/k5.png" alt="tek fiyat" style="width: 30%; left: 20%; top: 170%; position:absolute;">
+ <img src="img/k6.png" alt="tek fiyat" style="width: 30%; left: 52%; top: 170%; position:absolute;">
+ 
+</div>
+
+<br><br> <br> <br> <br> <br> <br> <br> <br> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+<footer class="footer-global">
+
+      </div> 
+  </div>
+  <div class="footer-global-inner" data-test-id="footer-global-inner">
+  <div class="footer-top">
+  <div class="container">
+   <div class="row">
+     <div class="col-md-3 col-sm-4">
+         <div class="ac-tab"><b>BOYNER</b> <i></i></div>
+           <ul class="ac-content" style="position: relative; right:40px">
+            <li><a href="http://kurumsal.boyner.com.tr/">Kurumsal</a></li>
+            <li><a href="http://kurumsal.boyner.com.tr/boyner-buyuk-magazacilik">Mağazalarımız</a></li>
+            <li><a href="https://kurumsal.boyner.com.tr/sosyal-sorumluluk">Sosyal Sorumluluk</a></li>
+            <li><a href="/content/kisisel-verilerin-korunmasina-iliskin-aydinlatma-metni">Müşteri, Üye ve Ziyaretçi Kişisel Verilerinin Korunmasına ilişkin Aydınlatma Metni</a></li>
+            <li><a href="/content/cerez-politikasi">Çerez Politikası</a></li>
+            <li><a href="/content/bilgi-guvenligi-politikamiz">Bilgi Güvenliği Politikamız</a></li>
+               </ul>
+           </section> 
+           </div>
+      <div class="col-md-2 col-sm-3">
+        <section data-test-id="usefull-help">
+          <div class="ac-tab"><b>YARDIM</b> <i></i></div>
+           <ul class="ac-content" style="position: relative; right:40px">
+             <li><a href="/content/sikca-sorulan-sorular">Sıkça Sorulan Sorular</a></li>
+             <li><a href="/content/kampanyalar">Kampanyalar</a></li>
+             <li><a href="/content/sikca-sorulan-sorular/?uyelik">Üyelik</a></li>
+             <li><a href="/content/sikca-sorulan-sorular/?odeme">Ödeme</a></li>
+             <li><a href="/content/sikca-sorulan-sorular/?iade-degisim">İade ve Değişim</a></li>
+                              
+      </ul>
+       </section>
+                  </div>
+                  <div class="col-md-2 col-sm-3">
+                      <section data-test-id="usefull-special-page">
+                          <div class="ac-tab"><b>ÖZEL SAYFALAR </b><i></i></div>
+                          <ul class="ac-content" style="position: relative; right:40px">
+                        <li><a href="/yilbasi-c-3340257">Yılbaşı</a></li>
+                        <li><a href="/content/sevgililer-gunu">Sevgililer Günü</a></li>
+                        <li><a href="/anneler-gunu-hediyeleri-c-3340254">Anneler Günü</a></li>
+                        <li><a href="/kelebek-indirimleri-c-3548576">Kelebek</a></li>
+                        <li><a href="/babalar-gunu-c-3340256">Babalar Günü</a></li>
+                       <li><a href="/mezuniyet-c-3393426">Mezuniyet</a></li>
+                       <li><a href="/okula-donus-c-3546416">Okula Dönüş</a></li>
+                      <li><a href="/sahane-cuma-c-3547821">Black Friday</a></li>
+                    </ul>
+                      </section>
+                  </div>
+                  <div class="col-md-2 col-sm-2">
+                      <section data-test-id="usefull-outlet">
+                 <div class="ac-tab"><b>OUTLET</b><i></i></div>
+           <ul class="ac-content" style="position: relative; right:40px">
+             <li><a href="/giyim-c-3384909">Kadın Giyim</a></li>
+                <li><a href="/giyim-c-3384925">Erkek Giyim</a></li>
+            <li><a href="/outlet-cocuk-c-3384964">Çocuk Giyim</a></li>
+           </ul>
+          </section>
+         </div>
+          <div class="col-md-3 col-sm-12 footerContact">
+        <section class="clearfix" >
+          <div><b><i></i>BİZE ULAŞIN</b></div>
+              <ul class="clearfix">
+            <li style="position: relative; right:40px"><div>Müşteri Hizmetleri</div></li>
+                <li class="f-phone" style="position: relative; right:40px"><i></i><a href="tel:+902124442967">444 29 67</a></li>
+              </ul>
+       </section>
+           </div>
+              </div>
+          </div>
+      </div>
+                <span></span>
+            <span></span>git commit -m "first commit"
+              </p>
+              </div>
+             </div>
+            </div>
+            </div>
+          </div>
+          <div class="footer-bottom-end">
+            <div class="container">
+             <div class="row">
+             <div class="col-md-2 miniLogo">
+         <img src="https://statics.boyner.com.tr/staticfiles/v2/images/boyner.svg" alt="Boyner" style="margin-top:15px;width:105px;">
+           </div>
+           <div class="col-md-7 col-sm-8 col-xs-12" style="position: relative; bottom:-10px;">
+           <p class="f-bottom-info">
+             <span>2019 Boyner Büyük Mağazacılık A.Ş.</span>
+             <a style="color: grey;" href="/content/uyelik-sozlesmesi">Üyelik Sözleşmesi</a>
+             </p>
+             </div>
+            <div class="col-md-3 col-sm-4 col-xs-12">
+              <figure class="f-bottom-logo" style="position: relative; bottom:-6px;">
+        <img src="https://statics.boyner.com.tr/staticfiles/images/boynergrup.svg" width="110" alt="">
+        <img src="https://statics.boyner.com.tr/staticfiles/images/comodosecurty@2x.png" height="30" alt="" style="margin-top:-7px">
+           </figure>
+       </div>
+    </div>
+ </div>
+ </div>
+  </div>
+  </div>
+</footer>
+</html>

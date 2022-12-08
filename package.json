@@ -1,0 +1,14 @@
+{
+   "name": "oop-gorev",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider; gatsby build"
+  },
+  "dependencies": {
+    "vue": "^3.2.41"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.1.2",
+    "vite": "^3.1.8"
+  }
+}
